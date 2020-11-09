@@ -6,7 +6,7 @@
 
 //liste de declaration de fonction permettant de traiter et de dessiner les formes
 
-int traiterForme();// : Ces fonctions, selon la forme, demandent les dimensions de la forme, affichent
+//int traiterForme();// : Ces fonctions, selon la forme, demandent les dimensions de la forme, affichent
 //la phrase de présentation de la forme avec les bonnes dimensions et finalement
 //appellent la fonction dessinant la forme.Il y aura donc 4 versions de cette
 //fonction : traiterRectangle(), traiterCarre(), traiterTriangle(),
@@ -25,7 +25,7 @@ int dessinerLosange();// : Fonction qui dessine un losange dont la hauteur et le
 //passés en paramètre.
 int genererNombreAleatoire();// : Fonction qui retourne un nombre aléatoire compris entre min et max passés en
 //paramètre.
-int traiterRectengle();
-int traiterTriangle();
-int traiterCarre();
-int traiterLosange();
+int traiterRectangle(int choixRemplissage);
+int traiterTriangle(int choixRemplissage);
+int traiterCarre(int choixRemplissage);
+int traiterLosange(int choixRemplissage);

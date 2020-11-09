@@ -5,7 +5,8 @@ using namespace std;
 int afficherMenu1()
 {
 
-	cout << "1.  REctengle"<< endl;
+	system("cls");
+	cout << "1.  Rectengle"<< endl;
 	cout << "2.  Triangle" << endl;
 	cout << "3.  Carré" << endl;
 	cout << "4.  Losange" << endl;
@@ -28,7 +29,7 @@ int afficherMenu2()
 int validerMenu(int choixMenu, int nbMax)
 {
 	int nombre;
-	if (choixMenu==1)
+	if (choixMenu == 1)
 	{
 		afficherMenu1();
 		cin >> nombre;
@@ -40,8 +41,9 @@ int validerMenu(int choixMenu, int nbMax)
 			system("cls");
 		}
 	}
-	if (choixMenu==2)
+	else
 	{
+		afficherMenu2();
 		cin >> nombre;
 		while (nombre < 1 || nombre > nbMax)
 		{

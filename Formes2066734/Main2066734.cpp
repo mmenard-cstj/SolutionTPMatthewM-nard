@@ -20,8 +20,9 @@ int main()
    const int TRIANGLE  = 2;
    const int CARRE     = 3;
    const int LOSANGE   = 4;
-
+   
 	// Définition des variables	
+
 	int choixForme;
 	int choixRemplissage;
 
