@@ -14,3 +14,5 @@ int validerMenu(int menu1, int quitter); //: Fonction qui lit le choix de l’util
 //choix offerts dans le menu, informations passées en paramètre.Cette fonction
 //retourne le choix validé.L’utilisateur peut taper n’importe quoi au clavier, le
 //programme ne part pas en boucle infinie.
+
+int input();
